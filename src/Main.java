@@ -8,6 +8,7 @@ public class Main {
             System.out.println("Первая половина строки: " + s.substring(0, s.length() / 2));
             System.out.println("Вторая половина строки: " + s.substring(s.length() / 2, s.length()));
         } else {
+
             String s1 = s + " ";
             System.out.println("Первая половина строки: " + s1.substring(0, s1.length() / 2));
             System.out.println("Вторая половина строки: " + s1.substring(s1.length() / 2, s1.length()));
